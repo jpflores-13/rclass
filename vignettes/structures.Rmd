@@ -337,7 +337,7 @@ There is a lot of information about subsetting and modifying objects that we do 
 
 These exercises are to help you solidify and expand on the information given above. We intentionally added some concepts that were not covered above, and hope that you will take a few minutes to think through what is happening and how R is interpreting the code. 
 
-1. Create a data frame with two columns: "col1" with the letters a to f, "col2" with the numbers 1 to 6, and "col3" with the alternating TRUE and FALSE values. Store the data frame as "mydf."
+1. Create a data frame with three columns: "col1" with the letters a to f, "col2" with the numbers 1 to 6, and "col3" with the alternating TRUE and FALSE values. Store the data frame as "mydf."
 
 2. Coerce `mydf` from exercise 1 to a matrix using the `as.matrix` function. Predict how the data will change. What class will the data be? Will there be column names? Row names?
 
