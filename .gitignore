@@ -2,7 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-rclass.Rproj
+
 *.Rproj
 *.nb.html
 docs/
