@@ -15,6 +15,7 @@ library(devtools)
 devtools::install_github("How-to-Learn-to-Code/rclass", build_opts = "", dependencies = TRUE)
 library(htltcR)
 ```
+If the command `library(devtools)` fails, you should first run `install.package('devtools')`.
 
 Once the package is installed once, users can easily grab the most recent version by running `updateRClass()`.
 
