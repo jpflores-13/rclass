@@ -268,7 +268,7 @@ Let's start with a simple example of combining for-loops and if/else statments. 
 # loop through all primers 
 for (i in 1:length(primers$V1)) {
   # print primer if it is longer than ..
-  if (nchar(primers[i, 1]) > 45){
+  if (nchar(primers[i, 1]) > 45) {
     print(primers[i, 1])
   }
 }
