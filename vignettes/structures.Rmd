@@ -272,13 +272,13 @@ Notice that you do not put quotes around the list names when providing them to t
 
 #### Data frames
 
-Finally, let us discuss subsetting a data frame. Recall from earlier that a data frame is just a special list, so you can subset a data frame in all the same ways you subset a list. Consider `df3`:
+Finally, let us discuss subsetting a data frame. Recall from earlier that a data frame is just a special list, so you can subset a data frame in all the same ways you subset a list. Consider `df2`:
 
 ```{r}
-df3
-df3[1]
-df3[[2]]
-df3$x
+df2
+df2[1]
+df2[[2]]
+df2$x
 ```
 
 Notice how using the `[` operator differs from `[[` and `$`. (You can think of `$` as shorthand for `[[` when you only want to select one element by name.) As we saw in the list subsetting, using `[` preserved the list structure (or in this case, the data frame structure), unlike the `[[` operator which attempts to simplify the data structure. 
@@ -286,9 +286,9 @@ Notice how using the `[` operator differs from `[[` and `$`. (You can think of `
 Unlike a list, you can also subset data frame like you would a two dimensional matrix using both an `i` and a `j` statement. 
 
 ```{r}
-df3[1, 2]
-df3[2, ]
-df3[ , 1]
+df2[1, 2]
+df2[2, ]
+df2[ , 1]
 ```
 
 Notice how subsetting by `i` and `j` alone differ. Every column of a data frame is essentially a vector in a list. So when you select one column, the data structure is simplified to a vector. However, selecting 1 row does not simplify, because different columns may have different data classes and it does not make sense to coerce all of the columns to one data type.
