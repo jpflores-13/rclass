@@ -27,7 +27,8 @@ Suggests:
     tidyverse,
     here,
     graphics,
-    covr
+    covr,
+    testthat (>= 3.0.0)
 Depends: R (>= 3.5.0)
 Imports: devtools, graphics, grDevices
 VignetteBuilder: knitr
@@ -35,4 +36,4 @@ RoxygenNote: 7.0.2
 LazyData: true
 License: MIT + file LICENSE
 Encoding: UTF-8
-
+Config/testthat/edition: 3
