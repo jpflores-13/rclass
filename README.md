@@ -12,7 +12,7 @@ To install the package from GitHub run:
 
 ```
 library(devtools)
-devtools::install_github("How-to-Learn-to-Code/rclass", build_opts = "", dependencies = TRUE)
+devtools::install_github("jpflores-13/rclass", build_opts = "", dependencies = TRUE)
 library(htltcR)
 ```
 If the command `library(devtools)` fails, you should first run `install.package('devtools')`.
