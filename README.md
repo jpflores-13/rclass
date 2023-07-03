@@ -4,20 +4,19 @@
 [![R build status](https://github.com/How-to-Learn-to-Code/rclass/workflows/R-CMD-check/badge.svg)](https://github.com/How-to-Learn-to-Code/rclass/actions)
 <!-- badges: end -->
 
-This package was developed for the graduate student developed and led How to Learn to Code initiative at the University of North Carolina at Chapel Hill. It is intended to give a fundamentals-focused introduction to programming R. 
+This is a forked version of a package that was developed and taught by graduate students called How to Learn to Code at the University of North Carolina at Chapel Hill. It is intended to give a fundamentals-focused introduction to programming in R. 
+This course was taught in Posit Cloud, setting a different repo as the base project.
 
 ## Installation
 
 To install the package from GitHub run:
 
 ```
+install.packages("devtools")
 library(devtools)
 devtools::install_github("jpflores-13/rclass", build_opts = "", dependencies = TRUE)
 library(htltcR)
 ```
-If the command `library(devtools)` fails, you should first run `install.package('devtools')`.
-
-Once the package is installed once, users can easily grab the most recent version by running `updateRClass()`.
 
 ## Using the package
 
@@ -30,7 +29,7 @@ vignette("operators")
 One of the biggest advantages of using a package is that students can easily load the data used in the examples and homeworks from the package. For example, to load the data used in control run: 
 
 ```
-data(primers)
+load("data/primers.RData")
 ```
 
 ## Class sequence

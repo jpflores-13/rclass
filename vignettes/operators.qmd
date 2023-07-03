@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE, collapse = TRUE)
 * Read through the document after class. This is meant to be a reference, and ideally, you should be able to understand every line of code. If there is something you do not understand please email us with questions or ask in the following class (you're probably not the only one with the same question!). 
 
 
-### Goals
+### Learning Goals
 1. Use the basic math operators (`+`, `-`, `*`, `/`, `^`)
 2. Correctly use the assignment operator
 3. Use and understand basic functions 
